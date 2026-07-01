@@ -24,7 +24,7 @@ void loop() {
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, LOW);
   delay(3000);
-  // analogWrite(ENA, 50);//0-255 CONTROLS SPEED
+  analogWrite(ENA, 50);//0-255 CONTROLS SPEED
 
 
 }
